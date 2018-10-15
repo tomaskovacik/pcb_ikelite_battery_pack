@@ -1,0 +1,169 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X05 J2
+U 1 1 58A17CA5
+P 4050 3100
+F 0 "J2" H 4050 3515 50  0000 C CNN
+F 1 "CONN_02X05" H 4050 3424 50  0000 C CNN
+F 2 "ikelite_switch:ikelite_switch" H -1000 -2100 50  0001 C CNN
+F 3 "" H -1000 -2100 50  0001 C CNN
+	1    4050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J3
+U 1 1 58A17D6A
+P 5200 2000
+F 0 "J3" V 5165 1912 50  0000 R CNN
+F 1 "CONN_01X02" V 5074 1912 50  0000 R CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 1950 -250 50  0001 C CNN
+F 3 "" H 1950 -250 50  0001 C CNN
+	1    5200 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 2900 4550 2900
+Wire Wire Line
+	4550 2900 4550 2300
+Wire Wire Line
+	4550 2300 4000 2300
+Wire Wire Line
+	4000 2300 4000 2200
+Wire Wire Line
+	3800 2900 3700 2900
+Wire Wire Line
+	3700 2300 3700 3100
+Wire Wire Line
+	3700 2300 3900 2300
+Wire Wire Line
+	3900 2300 3900 2200
+Wire Wire Line
+	3800 3000 3600 3000
+Wire Wire Line
+	3600 3000 3600 2650
+Wire Wire Line
+	3600 2650 5300 2650
+Wire Wire Line
+	4450 2650 4450 3000
+Wire Wire Line
+	4450 3000 4300 3000
+Wire Wire Line
+	4300 3200 5200 3200
+Wire Wire Line
+	5200 3200 5200 2200
+Wire Wire Line
+	5200 3400 5200 3300
+Wire Wire Line
+	4300 3300 5300 3300
+Wire Wire Line
+	3800 3300 3600 3300
+Wire Wire Line
+	3600 3300 3600 3600
+Wire Wire Line
+	3600 3600 4450 3600
+Wire Wire Line
+	4450 3600 4450 3300
+Connection ~ 4450 3300
+Wire Wire Line
+	5300 2650 5300 3400
+Connection ~ 5200 3300
+Connection ~ 4450 2650
+Connection ~ 5300 3300
+Wire Wire Line
+	3700 3100 3800 3100
+Connection ~ 3700 2900
+Wire Wire Line
+	3800 3200 3500 3200
+Wire Wire Line
+	3500 3200 3500 2450
+Wire Wire Line
+	3500 2450 4550 2450
+Connection ~ 4550 2450
+$Comp
+L CONN_01X01 J?
+U 1 1 58A183F4
+P 4000 2000
+F 0 "J?" V 3965 1912 50  0000 R CNN
+F 1 "CONN_01X02" V 3874 1912 50  0000 R CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 750 -250 50  0001 C CNN
+F 3 "" H 750 -250 50  0001 C CNN
+	1    4000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 58A18439
+P 3900 2000
+F 0 "J?" V 3865 1912 50  0000 R CNN
+F 1 "CONN_01X02" V 3774 1912 50  0000 R CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 650 -250 50  0001 C CNN
+F 3 "" H 650 -250 50  0001 C CNN
+	1    3900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 58A18455
+P 5300 3600
+F 0 "J?" V 5172 3678 50  0000 L CNN
+F 1 "CONN_01X02" V 5263 3678 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 2050 1350 50  0001 C CNN
+F 3 "" H 2050 1350 50  0001 C CNN
+	1    5300 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 58A1855C
+P 5200 3600
+F 0 "J?" V 5072 3678 50  0000 L CNN
+F 1 "CONN_01X02" V 5163 3678 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 1950 1350 50  0001 C CNN
+F 3 "" H 1950 1350 50  0001 C CNN
+	1    5200 3600
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
